@@ -49,12 +49,12 @@ select case
 from hacker_news
 group by 1;
 
--- #6&7 now we understand how strftime() works. Let’s write a query that returns three columns:
+-- #6&7 Write a query that returns three columns:
 -- 1. The hours of the timestamp
 -- 2. The average score for each hour
 -- 3. The count of stories for each hour
 
---Let’s edit a few things in the previous query:
+--Edit a few things in the previous query:
 -- 1. Round the average scores (ROUND()).
 -- 2. Rename the columns to make it more readable (AS).
 -- 3. Add a WHERE clause to filter out the NULL values in timestamp.
