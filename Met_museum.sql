@@ -34,7 +34,7 @@ from met
 group by 1
 having count(*) > 100;
 
--- #7 Lastly, let’s look at some bling! Count the number of pieces where the medium contains ‘gold’ or ‘silver’.
+-- #7 Count the number of pieces where the medium contains ‘gold’ or ‘silver’.
 -- And sort in descending order.
 select count(*),
  case
